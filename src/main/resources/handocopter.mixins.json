@@ -6,6 +6,9 @@
   "mixins": [
   ],
   "client": [
+    "HeldItemRendererMixin",
+    "InGameHudMixin",
+    "MinecraftClientMixin"
   ],
   "injectors": {
     "defaultRequire": 1

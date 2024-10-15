@@ -11,10 +11,10 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "com.filkond.handocopter.client.HandocopterClient"
+      "com.filkond.handocopter.HandocopterClient"
     ],
-    "main": [
-      "com.filkond.handocopter.Handocopter"
+    "modmenu": [
+      "com.filkond.handocopter.ModMenuIntegration"
     ]
   },
   "mixins": [
