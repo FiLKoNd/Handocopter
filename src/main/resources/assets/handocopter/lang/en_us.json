@@ -1,0 +1,6 @@
+{
+  "key.handocopter.open_settings": "Open handocopter settings",
+  "category.handocopter.main": "Handocopter",
+  "text.autoconfig.handocopter.option.isEnabled": "Is the handocopter enabled",
+  "text.autoconfig.handocopter.option.delay": "Delay between switches (in ticks)"
+}

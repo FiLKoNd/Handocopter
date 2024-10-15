@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "handocopter",
+  "version": "${version}",
+  "name": "Handocopter",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/handocopter/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.filkond.handocopter.client.HandocopterClient"
+    ],
+    "main": [
+      "com.filkond.handocopter.Handocopter"
+    ]
+  },
+  "mixins": [
+    "handocopter.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
